@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/ground_boder"
+        >
+    <TextView 
+        android:id="@+id/tv_zhuxiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注销当前账号"
+        android:textSize="15dp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:background="@drawable/ground_boder"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#DAD9DB" />
+    <TextView 
+        android:id="@+id/tv_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接关闭应用"
+        android:textSize="15dp"
+        android:background="@drawable/ground_boder"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        />
+</LinearLayout>
+ <LinearLayout 
+		android:id="@+id/ll_cancel"     
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/ground_boder"
+        >
+   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        
+        />
+   </LinearLayout>
+</LinearLayout>

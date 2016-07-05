@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/titlebar"
+        />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/adress_boder" >
+        <TextView
+            android:id="@+id/tv_singin_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：学习"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tv_singin_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="签到日期：2016-03-24"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_singin_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_singin_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date"
+            android:layout_alignBottom="@+id/tv_singin_date"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date"
+            android:text="状态 ；正常/正常"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_singin_singout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin"
+            android:layout_alignBottom="@+id/tv_singin_singin"
+            android:layout_alignLeft="@+id/tv_singin_reason"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+    
+    <TextView 
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_singin_singout"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/common_grey_transparency"
+        />
+<TextView
+            android:id="@+id/tv_singin_type1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：学习"
+            android:layout_below="@+id/a"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+<TextView
+            android:id="@+id/tv_singin_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_type1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="签到日期：2016-03-25"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_reason1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date1"
+            android:layout_alignBottom="@+id/tv_singin_date1"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date1"
+            android:text="状态 ；正常/早退"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin1"
+            android:layout_alignBottom="@+id/tv_singin_singin1"
+            android:layout_alignLeft="@+id/tv_singin_reason1"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView 
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_singin_singout1"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/common_grey_transparency"
+        />
+ <TextView
+            android:id="@+id/tv_singin_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：学习"
+            android:layout_below="@+id/s"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+<TextView
+            android:id="@+id/tv_singin_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_type2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="签到日期：2016-03-26"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_reason2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date2"
+            android:layout_alignBottom="@+id/tv_singin_date2"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date2"
+            android:text="状态 ；迟到/早退"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin2"
+            android:layout_alignBottom="@+id/tv_singin_singin2"
+            android:layout_alignLeft="@+id/tv_singin_reason2"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView 
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_singin_singout2"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/common_grey_transparency"
+        />
+ 
+ 
+ <TextView
+            android:id="@+id/tv_singin_type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：学习"
+            android:layout_below="@+id/d"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+<TextView
+            android:id="@+id/tv_singin_date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_type3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="签到日期：2016-03-27"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_reason3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date3"
+            android:layout_alignBottom="@+id/tv_singin_date3"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date3"
+            android:text="状态 ；迟到/正常"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singin3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin3"
+            android:layout_alignBottom="@+id/tv_singin_singin3"
+            android:layout_alignLeft="@+id/tv_singin_reason3"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView 
+        android:id="@+id/f"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_singin_singout3"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/common_grey_transparency"
+        />
+ 
+ <TextView
+            android:id="@+id/tv_singin_type4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：学习"
+            android:layout_below="@+id/f"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+<TextView
+            android:id="@+id/tv_singin_date4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_type4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="签到日期：2016-03-28"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_reason4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date4"
+            android:layout_alignBottom="@+id/tv_singin_date4"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date4"
+            android:text="状态 ；非正常签到"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singin4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin4"
+            android:layout_alignBottom="@+id/tv_singin_singin4"
+            android:layout_alignLeft="@+id/tv_singin_reason4"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView 
+        android:id="@+id/g"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_singin_singout4"
+        android:layout_marginTop="5dp"
+        android:layout_height="0.1dp"
+        android:background="@color/common_grey_transparency"
+        />
+ 
+ 
+ 
+  <TextView
+            android:id="@+id/tv_singin_type5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="类别：活动"
+            android:layout_below="@+id/g"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+<TextView
+            android:id="@+id/tv_singin_date5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_type5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="签到日期：2016-03-29"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_reason5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_date5"
+            android:layout_alignBottom="@+id/tv_singin_date5"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/tv_singin_date5"
+            android:text="状态 ：已签到"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singin5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_singin_date5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="签到时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+ <TextView
+            android:id="@+id/tv_singin_singout5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_singin_singin5"
+            android:layout_alignBottom="@+id/tv_singin_singin5"
+            android:layout_alignLeft="@+id/tv_singin_reason5"
+            android:text="签退时间：13:59:59"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+</RelativeLayout>
+      </ScrollView>
+    </LinearLayout>

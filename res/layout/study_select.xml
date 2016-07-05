@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <include layout="@layout/titlebar"/>
+ <ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     >
+     <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/study_select_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="类型：会议"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/study_select_theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="主题：学习党的十八大精神"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/study_select_studytime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="时间：2016-03-18 22:30:00 - 22:30:00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/study_select_checkintime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="签到时间：22:29:30-22:30:00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/study_select_checkouttime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="签退时间：22:29:30-22:30:00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/study_select_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="内容：学习一大到十八大会议精神"
+        android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

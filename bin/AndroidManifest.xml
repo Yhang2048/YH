@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trplot.app.dybs"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logod"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity android:name="com.teplot.app.dybc.MainActivity" >
+        </activity>
+        <activity android:name="com.teplot.app.dybc.DengluActivity" 
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.teplot.app.dybc.ZhuCeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.SheZhiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.GuanYuActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.TongYongActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.XiaoXiTongZhiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.YinSiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.ZhuangHuAnQuanActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.GongNengActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.WenTiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shezhi.activitys.SuopingActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.xitongshezhi.QuanXianActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.xitongshezhi.ZhiBuActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.xitongshezhi.ZuZhiJiaGouActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.dangyuanxinxi.activitys.DangYuanXinXiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.dangyuanxinxi.activitys.DetailsActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.DangYuanZiPingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.firstfragment.tongji.QianDaoActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.kaoping.DangYuangHuPingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.firstfragment.tongji.JiFenActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.tongji.XueXiActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.dangyuanxinxi.activitys.PUllListViewDangYuanXInXI" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.shipin.ShiPinActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.find.studyMetting.StadyDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.firstfragment.tongji.JiFenDetail" 
+            android:screenOrientation="portrait"/>
+         <activity android:name="com.teplot.app.dybc.firstfragment.tongji.JiFenErDetail" 
+            android:screenOrientation="portrait"/>
+          <activity android:name="com.teplot.app.dybc.firstfragment.tongji.JiFenSanDetail" 
+            android:screenOrientation="portrait"/>
+           <activity android:name="com.teplot.app.dybc.firstfragment.tongji.JiFenSiDetail" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.TongJiChaXunActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.DangYuanKaoPingActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.DangYuanXueXiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.GongShiGongKaiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.FengCaiZhanShiActivity" 
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.teplot.app.dybc.firstfragment.activitys.BaibaoXiangActivity" 
+            android:screenOrientation="portrait"/>
+        
+        
+          <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.ImageGridActivity" android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.TestPicActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.PhotoActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.AlbumActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.ImageFile" >
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.ShowAllPhoto" >
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.fengcai.GalleryActivity">
+        </activity>
+        
+<activity
+            android:name="com.teplot.app.dybc.shezhi.activitys.XinXiCaiJiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.shezhi.activitys.xinxi.AlbumXinxiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.shezhi.activitys.xinxi.GalleryXinxiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.shezhi.activitys.xinxi.ImageXinxiFile">
+        </activity>
+         <activity
+            android:name="com.teplot.app.dybc.shezhi.activitys.xinxi.XinxiShowAllPhoto">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.DangZhangActivity">
+        </activity>
+          <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.LiangXueYiZuoActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.DangjiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.DangjianActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.DangjianZhanlueActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.JiChuZhiShiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.XuexiActivity">
+        </activity>
+        <activity
+            android:name="com.teplot.app.dybc.firstfragment.baibaoxiang.dangyuanjichu.ZilvActivity">
+        </activity>
+        
+        <receiver android:name=".TestReceiver" >
+            <intent-filter>
+                <action android:name="com.test.broadcast" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 4.6版本新增的Activity声明，提升Push后台存活率 -->
+        <activity
+            android:name="com.baidu.android.pushservice.PushKeepAlive"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- push service start -->
+        <!-- 用于接收系统消息以保证PushService正常运行 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <!-- Push服务接收客户端发送的各种请求 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" />
+        <!-- push结束 -->
+
+
+        <!-- 此处Receiver名字修改为当前包名路径 -->
+        <receiver android:name="com.teplot.app.dybc.PushTestReceiver" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        
+         <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="1GvjOnKLD8PFEZcqOT9enEb9GEX1PmAk" />
+    </application>
+    <!-- Push service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 即允许访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+    
+    
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    
+
+</manifest>

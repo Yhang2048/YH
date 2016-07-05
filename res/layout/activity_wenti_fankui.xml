@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="问题和意见"
+        android:textColor="@color/common_grey_transparency" />
+
+    <EditText
+        android:id="@+id/et_yijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/wenti_fankui_hint"
+        android:lines="5"
+        android:textColor="@color/common_grey_transparency" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="图片（选填，提供问题截图）"
+        android:textColor="@color/common_grey_transparency" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/fl_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+             >
+
+            <ImageView
+                android:id="@+id/iv_clear1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/search_clear_pressed" />
+
+            <ImageView
+                android:id="@+id/iv_first"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ground_boder"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+             >
+
+            <ImageView
+                android:id="@+id/iv_clear2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/search_clear_pressed" />
+
+            <ImageView
+                android:id="@+id/iv_second"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ground_boder"
+                android:scaleType="fitXY"
+                 />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+             >
+
+            <ImageView
+                android:id="@+id/iv_clear3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/search_clear_pressed" />
+
+            <ImageView
+                android:id="@+id/iv_third"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ground_boder"
+                android:scaleType="fitXY"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+             >
+
+            <ImageView
+                android:id="@+id/iv_clear4"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="right|top"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/search_clear_pressed" />
+
+            <ImageView
+                android:id="@+id/iv_fourth"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ground_boder"
+                android:scaleType="fitXY"
+                />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_btn_tianjia"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/tianjia" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="QQ/邮箱"
+        android:textColor="@color/common_grey_transparency" />
+
+    <com.teplot.app.dybc.Custom.ClearEditText
+        android:id="@+id/cl_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="(选填，方便我们联系你)"
+        android:singleLine="true"
+        android:textColor="@color/common_grey_transparency" />
+
+    <TextView
+        android:id="@+id/tv_tianjiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/ground_boder_tijiao"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="提交"
+        android:textColor="@color/white" />
+
+</LinearLayout>

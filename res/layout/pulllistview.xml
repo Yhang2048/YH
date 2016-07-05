@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <include layout="@layout/titlebar"/>
+    <com.escoder.pulllistview.PullListView
+        android:id="@+id/plv_common"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/common_grey_transparency"
+        android:dividerHeight="2dp"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false" />
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDuration="700"
+        android:visibility="visible" />
+    
+
+</LinearLayout>

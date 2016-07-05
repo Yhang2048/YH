@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上红云</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="title">掌上红云党员管理服务系统</string>
+     <string name="zhuce">注册</string>
+     <string name="shezhi">设置</string>
+      <string name="message_title">正在建设中。。。</string>
+     <string name="a">统计查询</string>
+     <string name="b">党员考评</string>
+     <string name="c">党员学习</string>
+     <string name="d">公示公开</string>
+     <string name="e">风采展示</string>
+     <string name="f">百宝箱</string>
+     <string name="denglu">登    录</string>
+     <string name="huping">提示：提交评价后再做修改，修改内容将会无效。</string>
+     <string name="shengming">注册真是可用，注册成功厚用户可用于登录，但是示例程序并未和服务端交互，用户相关数据仅存储于本地</string>
+	<string name="tongzhi">若关闭，当收到新消息时，通知提示将不显示发信人和内容摘要</string>
+	<string name="gongneng">设置系统功能消息提示声音和震动的时段</string>
+	<string name="bottom">当HelloMUI在运行时，你可以设置是否需要声音或者震动</string>
+	<string name="yinsi_kaiqi">开启后，为你推荐已经开通HBuilder的手机联系人</string>
+	<string name="yinsi_guanbi">关闭后，其他用户将不能通过HBuilder号搜索到你</string>
+	<string name="wenti_fankui_hint">请详细描述你的问题和意见</string>
+	
+	  <!-- 图片浏览 -->
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string> 
+    <string name="camera_cancel">取消</string>
+    <string name="no_photo">相册没有图片</string>
+</resources>

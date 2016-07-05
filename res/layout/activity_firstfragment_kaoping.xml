@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <include 
+        layout="@layout/titlebar"
+        />
+    <LinearLayout
+        android:id="@+id/ll_huiping"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:layout_marginTop="30dp"
+        android:background="@drawable/boder"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="党内互评" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/brn_join" />
+    </LinearLayout>
+    
+    
+        <LinearLayout
+        android:id="@+id/ll_kaoping"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:layout_marginTop="10dp"
+        android:background="@drawable/boder"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="线上考评" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/brn_join" />
+    </LinearLayout>
+    
+</LinearLayout>
